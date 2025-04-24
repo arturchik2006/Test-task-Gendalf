@@ -1,12 +1,5 @@
 <script setup lang="ts">
-import galka from "./icons/galka.png";
-import person from "./icons/person.png";
 import support_block from "./support_block.vue";
-
-const props = defineProps<{
-  question: string;
-  answer: string;
-}>();
 </script>
 
 <template>
